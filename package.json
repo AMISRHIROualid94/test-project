@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
-  "dependencies": {
-    "lodash": "^4.17.15"
-  },
-  "devDependencies": {},
   "scripts": {
     "build": "browserify script.js > bundle.js && live-server"
   },
@@ -19,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AMISRHIROualid94/test-project/issues"
   },
-  "homepage": "https://github.com/AMISRHIROualid94/test-project#readme"
+  "homepage": "https://github.com/AMISRHIROualid94/test-project#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
 }
